@@ -8,6 +8,8 @@ import ContentCards from "./componnets/contentCards";
 
 function App() {
   const [dataApi, setDataApi] = useState([]);
+
+  //Using Axios to fetch datas //
   useEffect(() => {
     const api = "https://jsonplaceholder.typicode.com/users";
 
